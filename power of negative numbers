@@ -1,3 +1,4 @@
+count the number of negative nos
 li=list(map(int,input().split()))
 c=0
 for i in range(len(li)):
