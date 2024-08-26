@@ -1,0 +1,16 @@
+li=list(map(int,input().split()))
+e=0;o=0
+for i in range(len(li)):
+    if(li[i]%2==0):
+        e+=i
+    else:
+        o+=i
+if(e==o):
+    print('even odd')
+elif(e>o):
+    print('even')
+else:
+    print('odd')
+output
+1 2 3 4
+even
