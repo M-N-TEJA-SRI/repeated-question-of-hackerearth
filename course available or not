@@ -1,0 +1,15 @@
+li=list(map(str,input().split()))
+flag=0
+x=input()
+for i in range(len(li)):
+    if(li[i]==x):
+        flag=1
+        break
+if(flag==1):
+    print('course available')
+else:
+    print('not available')
+output
+java c++ python dotnet
+c
+not available
