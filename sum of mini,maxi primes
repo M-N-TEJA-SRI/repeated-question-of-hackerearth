@@ -1,0 +1,19 @@
+def isprime(x):
+    flag=1
+    for i in range(2,int(x**0.5)+1):
+        if(x%i==0):
+            flag=0
+            break
+    return flag
+a,b=map(int,input().split())
+mini=9999
+maxi=0
+for i in range(a,b+1):
+    if(isprime(i)==1 and i!=1):
+        mini=min(mini,i)
+        maxi=max(maxi,i)
+        
+print(mini+maxi)  
+output
+1 20
+21
