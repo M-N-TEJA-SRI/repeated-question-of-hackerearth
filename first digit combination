@@ -1,0 +1,13 @@
+combine all first digits of elements in the list and find whether is it divisible by 3 or not
+li=list(map(int,input().split()))
+sumi=0
+for i in range(len(li)):
+    s=str(li[i])
+    sumi+=int(s[0])
+if(sumi%3==0):
+    print('YES')
+else:
+    print('NO')
+output
+13 18 19
+YES
