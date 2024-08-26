@@ -1,0 +1,11 @@
+s=input()
+li=s.split(' ')
+a=list(set(li))
+c=0
+for i in range(len(a)):
+    if(li.count(a[i])>1):
+        c+=1
+print(c) 
+output
+This This a
+1
