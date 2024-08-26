@@ -1,3 +1,4 @@
+a string s is transferred to the string t find the number of mismatches with the string t.
 s=input()
 t=input()
 c=0
