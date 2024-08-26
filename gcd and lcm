@@ -1,0 +1,14 @@
+def gcd(a,b):
+    if(a==0):
+        return b
+    elif(b==0):
+        return a
+    else:
+        return gcd(b,a%b)
+a,b=map(int,input().split())
+gcdans=gcd(a,b)
+lcm=(a*b)//gcdans
+print(gcdans,lcm)
+output
+30 15
+15 30
