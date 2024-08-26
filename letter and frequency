@@ -1,0 +1,9 @@
+s=input()
+li=list(set(s))
+t=''
+for i in range(len(li)):
+    t+=li[i]+str(s.count(li[i]))
+print(t) 
+output
+aabbbbeeeeffggg
+e4f2a2g3b4
