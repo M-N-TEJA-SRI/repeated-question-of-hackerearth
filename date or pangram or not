@@ -1,0 +1,10 @@
+find the given string is pangram or not
+s=input()
+li=list(set(s))
+if(len(li)==26):
+    print('pangram')
+else:
+    print('not a pangram')
+output
+abcdefghijklmnopqrstuvwxyz
+pangram
