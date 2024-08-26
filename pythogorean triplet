@@ -1,0 +1,18 @@
+li=list(map(int,input().split()))
+flag=0
+for i in range(len(li)):
+    for j in range(i+1,len(li)):
+        for k in range(j+1,len(li)):
+            a=li[i]*li[i]
+            b=li[j]*li[j]
+            c=li[k]*li[k]
+            if(a+b==c or b+c==a or a+c==b):
+                flag=1
+                break
+if(flag==1):
+    print('yes there is a pythogorean triplet')
+else:
+    print('no')
+output
+3 1 4 6 5
+yes there is a pythogorean triplet
