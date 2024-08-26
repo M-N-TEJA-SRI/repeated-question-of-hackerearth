@@ -1,0 +1,12 @@
+a person can climb 1 or 2 steps find the number of distinct ways to reach nth steps
+n=int(input())
+b=0
+c=1
+for i in range(n):
+    a=b+c
+    b=c
+    c=a
+print(a)    
+output
+4
+5
