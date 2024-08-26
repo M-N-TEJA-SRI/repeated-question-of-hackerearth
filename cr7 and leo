@@ -1,0 +1,29 @@
+swap only vowels
+def isvowel(x):
+    if(x in 'AEIOUaeiou'):
+        return True
+    else:
+        return False
+s=input()
+li=[]
+for i in range(len(s)):
+    li.append(s[i])
+i=0
+j=len(li)-1
+while(i<=j):
+    if(isvowel(li[i])==False):
+        i+=1
+    elif(isvowel(li[j])==False):
+        j-=1
+    
+    else:
+        li[i],li[j]=li[j],li[i]
+        i+=1
+        j-=1
+t=''        
+for i in range(len(li)):
+    t+=li[i]
+print(t)    
+output
+axyze
+exyza
