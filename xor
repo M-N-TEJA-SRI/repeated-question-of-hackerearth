@@ -1,0 +1,6 @@
+a girl is finding xor of a,b and stores in c finally she lost the values of a but is having b,c find the a values
+b,c=map(int,input().split())
+print(b^c)
+output
+2 3
+1
