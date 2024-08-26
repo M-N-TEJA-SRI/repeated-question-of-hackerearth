@@ -1,0 +1,9 @@
+using angle
+a,b,c=map(int,input().split())
+if(a==b and b==c and c==a and (a+b+c)==180):
+    print('equilateral')
+else:
+    print('not equilateral')
+output
+60 60 60
+equilateral
