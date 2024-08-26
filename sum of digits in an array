@@ -1,3 +1,4 @@
+find the sum of digits of an element in an array
 def sumi(x):
     sumo=0
     while(x):
