@@ -1,0 +1,15 @@
+def sumi(x):
+    sumo=0
+    while(x):
+        sumo+=x%10
+        x//=10
+    return sumo    
+li=list(map(int,input().split()))
+a=[]
+for i in range(len(li)):
+    ans=sumi(li[i])
+    a.append(ans)
+print(a)  
+output
+65 45 32 99
+[11, 9, 5, 18]
