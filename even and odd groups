@@ -1,0 +1,18 @@
+print the even nos is descending order and followed by odd nos in descending order
+li=list(map(int,input().split()))
+odd=[]
+even=[]
+for i in range(len(li)):
+    if(li[i]%2==0):
+        even.append(li[i])
+    else:
+        odd.append(li[i])
+even.sort()
+even=even[::-1]
+odd.sort()
+odd=odd[::-1]
+even+=odd
+print(even)
+output
+6 7 2 1
+[6, 2, 7, 1]
