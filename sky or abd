@@ -1,0 +1,8 @@
+a,b,c,d=map(int,input().split())
+if((a*4)+(b*6)>(c*4)+(d*6)):
+    print('sky')
+else:
+    print('abd')
+output
+8468 6335 6501 9170
+abd
