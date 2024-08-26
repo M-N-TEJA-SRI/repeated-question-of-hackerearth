@@ -1,0 +1,9 @@
+n,m is the size of the matrix
+n,m=map(int,input().split())
+if(n!=m):
+    print(-1)
+else:
+    print('square')
+output
+6 6
+square
