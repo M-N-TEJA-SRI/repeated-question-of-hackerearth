@@ -1,0 +1,8 @@
+s=input()
+if(s.count('0')==1 or s.count('1')==1):
+    print('can')
+else:    
+    print('cant')
+output
+000001001
+cant
