@@ -1,0 +1,9 @@
+find the nth value of given series 1,5,13,25,41.....
+n=int(input())
+y=1
+for i in range(1,n):
+    y+=4*i
+print(y)    
+output
+4
+25
