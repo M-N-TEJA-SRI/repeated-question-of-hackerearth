@@ -1,0 +1,14 @@
+s=input()
+s=s[::-1]
+print(s)
+
+s=int(input())
+sumi=0
+while(s):
+    sumi=sumi*10+(s%10)
+    s//=10
+print(sumi)    
+
+output
+1987
+7891
