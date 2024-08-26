@@ -1,0 +1,26 @@
+boy goes for shopping buys all chocolates with fixed prices find total bill(50marks you got)
+  t=int(input())
+for i in range(t):
+    n=int(input())
+    sum=0
+    for i in range(n):
+        name,quan=map(str,input().strip().split())
+        quan=int(quan)
+        if(name=="Perk"):
+            sum+=quan*10
+        elif(name=="5star"):
+            sum+=quan*20
+        elif(name=="Dairymilk"):
+            sum+=quan*15
+        elif(name=="Chocos"):
+            sum+=quan*30
+        elif(name=="Bourniville"):
+            sum+=quan*145
+        elif(name=="Kitkat"):
+            sum+=quan*60
+    print(sum)         
+   output
+    1
+    1
+    5star 20
+    1000          
