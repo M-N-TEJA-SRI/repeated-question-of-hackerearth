@@ -1,0 +1,17 @@
+s=input()
+hash=[]
+nothash=[]
+t=''
+for i in range(len(s)):
+    if(s[i]=='#'):
+        hash.append('#')
+    else:
+        nothash.append(s[i])
+for i in range(len(hash)):
+    t+=hash[i]
+for i in range(len(nothash)):
+    t+=nothash[i]
+print(t)
+output
+Move#Hash#to#Front
+###MoveHashtoFront
