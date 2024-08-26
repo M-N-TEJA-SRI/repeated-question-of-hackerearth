@@ -1,0 +1,16 @@
+def isprime(x):
+    flag=1
+    for i in range(2,int(x**0.5)+1):
+        if(x%i==0):
+            flag=0
+            break
+    return flag
+li=list(map(int,input().split()))
+sumi=0
+for i in range(len(li)):
+    if(isprime(li[i])==1):
+        sumi+=li[i]
+print(sumi)    
+output
+51 2 12
+2
