@@ -1,0 +1,12 @@
+use all the digits in the array rearrange it and find whether it is div by 3 or not
+def dig(x):
+    sumi=0
+    while(x):
+        sumi+=x%10
+        x//=10
+    return sumi    
+li=list(map(int,input().split()))
+sumi=0
+for i in range(len(li)):
+    sumi+=dig(li[i])
+print(sumi%3==0)    
