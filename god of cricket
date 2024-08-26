@@ -1,0 +1,4 @@
+a number of 4s and b number of 6s out of which it forms only 20% of the score find the total score 
+a,b=map(int,input().split())
+print(((a*4)+(b*6))*5)
+    
