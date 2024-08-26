@@ -1,0 +1,7 @@
+print the highest second score
+li=list(map(int,input().split()))
+li.sort()
+print(li[-2])
+output
+9 8 3 89 100
+89
