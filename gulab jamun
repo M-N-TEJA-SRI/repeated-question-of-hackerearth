@@ -1,0 +1,15 @@
+A mom gives three of jamuns to each of her two daughters and wanted to give her third daughter Tanu the jamuns only on few conditions if the left over jamuns are prime then she gives all of them to tanu that are left but if 
+they are prime then she will give only 1 jamun and if no jamun is left then show -1 as output.Help mom to know how many jamuns will Tanu get?
+n=int(input())
+flag=1
+for i in range(2,int(n**0.5)+1):
+    if(n%i==0):
+        flag=0
+        break
+if(flag==1):
+    print(n-3)
+else:
+    print(4)
+output
+47
+44
