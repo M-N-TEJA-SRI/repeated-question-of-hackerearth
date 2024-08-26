@@ -1,0 +1,7 @@
+arrange the heights of students in ascending order
+li=list(map(int,input().split()))
+li.sort()
+print(li)
+output
+9 1 7 4 5
+[1, 4, 5, 7, 9]
