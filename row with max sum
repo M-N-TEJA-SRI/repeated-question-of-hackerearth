@@ -1,0 +1,19 @@
+print the row with max sum
+n=int(input())
+li=[]
+maxi=0
+for i in range(n):
+    b=list(map(int,input().strip().split()))
+    sumi=sum(b)
+    if(maxi<sumi):
+        maxi=sumi
+        li=b
+for i in range(len(li)):
+    print(li[i],end=' ')
+output
+3
+1 2 3
+4 5 6
+7 8 9
+
+7 8 9
