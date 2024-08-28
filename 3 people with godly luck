@@ -1,0 +1,16 @@
+ree friends alpha,beta and gamma saw a treasure they have to choose the max value of diamond such that their share is max following the order print their shares respectively
+li=list(map(int,input().split()))
+a=0;b=0;c=0
+li.sort()
+li=li[::-1]
+for i in range(len(li)):
+    if(i%3==0):
+        a+=li[i]
+    elif(i%3==1):
+        b+=li[i]
+    else:
+        c+=li[i]
+print(a,b,c)        
+output
+1 2 3 1 2 3
+5 4 3
