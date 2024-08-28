@@ -1,0 +1,18 @@
+find the odd element
+li=list(map(int,input().split()))
+li.sort()
+ans=[]
+for i in range(len(li)):
+    if(len(ans)==0):
+        ans.append(li[i])
+    elif(ans[-1]==li[i]):
+        ans.pop()
+    else:
+        ans.append(li[i])
+if(len(ans)!=0):
+    print(ans[-1]) 
+else:
+    print('no odd one out element')
+output
+1 2 1 2 3
+3
