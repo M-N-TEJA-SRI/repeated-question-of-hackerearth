@@ -1,0 +1,7 @@
+s,k=map(str,input().split())
+k=int(k)
+s=s[::-1]
+print(s[k-1])
+output
+vignan 2
+a
