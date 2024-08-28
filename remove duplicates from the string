@@ -1,0 +1,11 @@
+s=input()
+li=[]
+t=''
+for i in range(len(s)):
+    if(s[i] not in li):
+        li.append(s[i])
+        t+=s[i]
+print(t)  
+output
+cocktail
+coktail
