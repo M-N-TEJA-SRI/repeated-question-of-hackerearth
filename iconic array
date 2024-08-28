@@ -1,0 +1,10 @@
+find the count of no of elements which satisfy the equation a[i]%i+1=0
+li=list(map(int,input().split()))
+c=0
+for i in range(len(li)):
+    if(li[i]%(i+1)==0):
+        c+=1
+print(c)    
+output
+1 2 3 4
+4
